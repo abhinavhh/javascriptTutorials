@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif; /* Add a fallback font family */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    background-color: rgba(163, 158, 158, 0.418);
+    width: 100%;
+    text-align: center;
+    padding: .5em;
+    margin-top: 0;
+}
+
+.container2 {
+    background-color: rgba(163, 158, 158, 0.418);
+    width: 50%;
+    padding: 1em; /* Add padding for better spacing */
+    border-radius: 10px; /* Add border radius for a rounded appearance */
+}
+
+h2 {
+    padding-left: 0.5em; /* Adjust padding for better alignment */
+    margin-bottom: 0; /* Remove bottom margin */
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    padding: 0; /* Remove default padding */
+    list-style: none; /* Remove default list styles */
+}
+
+.label li {
+    margin-bottom: 1em; /* Add margin between label/input pairs */
+}
+
+.btn {
+    margin-top: 1em;
+    background-color: rgb(61, 60, 60);
+    color: white; /* Add text color */
+    border: none;
+    padding: 0.5em 1em; /* Add padding for better button appearance */
+    cursor: pointer; /* Change cursor on hover */
+    border-radius: 5px; /* Add border radius for a rounded appearance */
+}
+.last{
+    margin-right: 2em;
+}
+.last h1{
+    font-size: 1em;
+}
+.btn:hover {
+    background-color: rgb(50, 50, 50); /* Darken button color on hover */
+}
+.error{
+    background-color: orange;
+}
