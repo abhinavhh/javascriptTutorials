@@ -1,1 +1,1 @@
-<a href="./index.html">Click</a>
+<a href="https://06abhinav123.github.io/javascriptTutorials/basics">Click</a>
