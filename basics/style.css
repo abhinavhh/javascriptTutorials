@@ -1,64 +1,51 @@
-body {
+body{
     margin: 0;
     font-family: Arial, sans-serif; /* Add a fallback font family */
 }
-
-.container {
-    display: flex;
+.container{
+    display:flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 1em;
 }
-
-h1 {
-    background-color: rgba(163, 158, 158, 0.418);
+h1{
+    background-color: rgba(164, 171, 177, 0.425);
     width: 100%;
+    margin-top:0;
     text-align: center;
-    padding: .5em;
-    margin-top: 0;
+    padding:10px 0px;
 }
-
-.container2 {
-    background-color: rgba(163, 158, 158, 0.418);
-    width: 50%;
-    padding: 1em; /* Add padding for better spacing */
-    border-radius: 10px; /* Add border radius for a rounded appearance */
+.container2{
+    background-color: rgba(164, 171, 177, 0.425);
+    max-width: 60%;
+    align-items: center;
+    padding-right: 2em;
+    border-radius: 10px;
 }
-
-h2 {
-    padding-left: 0.5em; /* Adjust padding for better alignment */
-    margin-bottom: 0; /* Remove bottom margin */
+h2{
+    margin-left: 1.6em;
+    margin-bottom: 0;
 }
-
-.label {
+.label{
+    margin:0;
+}
+.label li{
     display: flex;
     flex-direction: column;
-    margin-top: 0;
-    padding: 0; /* Remove default padding */
-    list-style: none; /* Remove default list styles */
 }
-
-.label li {
-    margin-bottom: 1em; /* Add margin between label/input pairs */
-}
-
-.btn {
+.label .btn{
     margin-top: 1em;
-    background-color: rgb(61, 60, 60);
-    color: white; /* Add text color */
-    border: none;
-    padding: 0.5em 1em; /* Add padding for better button appearance */
-    cursor: pointer; /* Change cursor on hover */
-    border-radius: 5px; /* Add border radius for a rounded appearance */
+    background-color: rgb(114, 100, 100);
+    border: 0px;
+    border-radius: 1em;
 }
 .last{
-    margin-right: 2em;
+    font-size: .5em;
 }
-.last h1{
-    font-size: 1em;
-}
-.btn:hover {
-    background-color: rgb(50, 50, 50); /* Darken button color on hover */
-}
-.error{
+.msg{
     background-color: orange;
+    margin-left: 1.5em;
+    padding-left: 1.5em;
 }
+
+
