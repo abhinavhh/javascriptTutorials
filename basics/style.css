@@ -1,6 +1,5 @@
 body{
     margin: 0;
-    font-family: Arial, sans-serif; /* Add a fallback font family */
 }
 .container{
     display:flex;
@@ -17,11 +16,12 @@ h1{
 }
 .container2{
     background-color: rgba(164, 171, 177, 0.425);
-    max-width: 60%;
+    width: 60%;
     align-items: center;
     padding-right: 2em;
     border-radius: 10px;
 }
+
 h2{
     margin-left: 1.6em;
     margin-bottom: 0;
@@ -47,5 +47,19 @@ h2{
     margin-left: 1.5em;
     padding-left: 1.5em;
 }
-
+@media (min-width:780px){
+    .label li{
+        flex-direction: row;
+    }
+    li label{
+        margin-right: 1em;
+    }
+    li input{
+        width: 80%;
+        margin-bottom: 1em;
+    }
+    li .btn{
+        width: 100%;
+    }
+}
 
